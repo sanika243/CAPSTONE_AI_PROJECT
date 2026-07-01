@@ -1,22 +1,23 @@
-Project Title: AI Learning Buddy
+# 🎓 AI Learning Buddy
 
-What it does: Briefly explain that it uses Gemini AI to help beginners learn topics, generate quizzes, and provide real-life examples.
+An AI-powered tool built with Streamlit and Google Gemini to make learning easier and more interactive.
 
-How to run it: * "1. Clone this repository."
+## Features
+- **Explain Concept**: Get simple, beginner-friendly explanations for any topic.
+- **Real-Life Example**: Understand complex ideas through relatable, real-world examples.
+- **Generate Quiz**: Test your knowledge with instant MCQs.
+- **Ask Anything**: Use Gemini's intelligence for general queries.
 
-"2. Create a .env file with your GOGGLE_API_KEY."
+## How to Run Locally
 
-"3. Run streamlit run app.py."
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/sanika243/CAPSTONE_AI_PROJECT.git](https://github.com/sanika243/CAPSTONE_AI_PROJECT.git)
+   cd CAPSTONE_AI_PROJECT
 
-How to add the README
-In your VS Code folder, create a new file named README.md.
+   GOGGLE_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
+   
+   pip install streamlit google-generativeai python-dotenv
 
-Write your project description inside it using Markdown (it's very easy to learn).
-
-To upload it: * Click the Source Control icon.
-
-Stage the new README.md file (click the + icon).
-
-Commit it with the message: "Added README".
-
-Click Sync Changes (or "Push").
+   streamlit run app.py
+   
