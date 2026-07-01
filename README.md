@@ -14,10 +14,3 @@ An AI-powered tool built with Streamlit and Google Gemini to make learning easie
    ```bash
    git clone [https://github.com/sanika243/CAPSTONE_AI_PROJECT.git](https://github.com/sanika243/CAPSTONE_AI_PROJECT.git)
    cd CAPSTONE_AI_PROJECT
-
-   GOGGLE_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
-   
-   pip install streamlit google-generativeai python-dotenv
-
-   streamlit run app.py
-   
